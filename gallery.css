@@ -198,7 +198,7 @@ footer {
 	}
 	
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 480px){
 	 img{
 		float: left;
 	margin: 0 1em 1em 0;
@@ -209,11 +209,12 @@ footer {
 	p{
 		display: none;
 	}
+
 body{
 		 font-family: 'Libre Baskerville', serif;
 	}
-
-@media screen and (max-width: 600px)
+}
+@media screen and (max-width: 600px){
 	header p{
 		display: block;
 		margin-top: -1.5em;
@@ -231,9 +232,8 @@ body{
 	p{
 		display: none;
 	}
-	
-
-media screen (min-width: 940px)
+}
+media screen (min-width: 940px){
 body{
 font-family: 'Gloria Hallelujah', serif;
 	 background-image: url("images/background.jpg");
@@ -249,3 +249,4 @@ font-family: 'Gloria Hallelujah', serif;
 	footer{
 		grid-area: footer;
 	}
+}
