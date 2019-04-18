@@ -1,8 +1,4 @@
 
-@charset "utf-8";
-
-
-
 body {
 	font-family: 'Gloria Hallelujah', serif;
 	 background-image: url("images/background.jpg");
@@ -132,7 +128,7 @@ small{
   .prev, .next,.text {font-size: 11px}
 }
 nav ul li a:link, nav ul li a:visited {
-	color: rgba(20,160,128,1.00);
+	color: #14A080;
 }
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
 	color: #fff;
@@ -157,7 +153,7 @@ nav ul li a {
   padding: .5em 1em; 	
   border-radius: .5em; 
   margin: .25em; 
-	background-color: rgba(240,208,74,1.00);
+	background-color: #F0D04A;
   } 
 a:link {
   color: red;
@@ -188,22 +184,22 @@ copyright {
 footer {
 	height: 25px;
         width: 100%;
-        background-color: rgba(237,184,67,1.00);
+        background-color: #EDB843;
 	bottom:0;
     }
 
 
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 400px)
 	nav ul li {
 		flex:none;}
 	nav ul{
 		justify-content: center;
 	}
 	
-		}
-@media screen and (max-width: 480px){
-	main img{ 
+
+@media screen and (max-width: 480px)
+	 img{
 		float: left;
 	margin: 0 1em 1em 0;
 	}
@@ -213,9 +209,9 @@ footer {
 	p{
 		display: none;
 	}
-}
 
-@media screen and (max-width: 600px;){
+
+@media screen and (max-width: 600px)
 	header p{
 		display: block;
 		margin-top: -1.5em;
@@ -233,9 +229,8 @@ footer {
 		display: none;
 	}
 	
-	}
 
-media screen (min-width: 940px){
+media screen (min-width: 940px)
 	#container{
 		display: grid;
 		grid-template-rows: auto min-height 5em;
@@ -244,9 +239,6 @@ media screen (min-width: 940px){
 		margin: 0 auto;
 		position: relative;
 	}
-	
-	
-	
 	footer{
 		grid-area: footer;
 	}
