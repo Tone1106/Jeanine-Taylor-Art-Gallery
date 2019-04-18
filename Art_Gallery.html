@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	<link REL="StyleSheet" TYPE="text/css" HREF="gallery.css">
+	<title>Taylor Art Gallery</title>
+</head>
+<body>
+<h1>Taylor Gallery</h1>
+	<h2>Artist: Trent Manning</h2>
+		<nav>
+	<ul>
+	
+				<li><a href="index.html"> Taylor Gallery Home</a></li>
+					<li><a href="classes.html">Classes</a></li>
+					<li><a href="Art_Gallery.html">Featured Gallery</a></li>
+					
+	    
+			</ul>
+	</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="images/1way.jpg" alt="framed wood carving with 1 way sign and boy">
+  <div class="text">!WAY</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="images/Sbikeboy.jpg" alt="sculpture boy on bike">
+  <div class="text">Solo</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="images/Sbikeboy2.jpg" alt="second sculpture of boy on bike">
+  <div class="text">Bike Boy</div>
+</div>
+	<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="images/Sclowns.jpg" alt="sculpture of divided clown">
+  <div class="text">Ballooned</div>
+</div>
+	<div class="mySlides fade">
+  <div class="numbertext">5/ 5</div>
+  <img src="images/2paintings.jpg" alt="2 paintings of lil boy and girl">
+  <div class="text">Girl&amp;Boy</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span> 
+	<span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	<div class="boxed">
+Location: Dowtown Sanford, FL<br>
+			Hours: Tuesday to Friday, <time datetime="10:00">10am</time> to<time datetime="18:00"> 6pm</time><br>
+			Hours: Saturday and Sunday, <time datetime="10:00">10am</time> to<time datetime="17:00"> 5pm</time><br>
+			<a href="tel:+1407-323-2774">Telephone: 407-323-2774</a>
+				<br>
+			<a href="https://www.jtfolkart.com">Or contact us at:www.jtfolkart.com</a>
+			   
+</div>
+			
+<footer>
+	<p><Small>All content copyright &copy; 2019, Jeanine Taylor Gallery</Small></p>
+	</footer>
+</body>
+</html> 
