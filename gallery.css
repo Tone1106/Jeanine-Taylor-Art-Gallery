@@ -190,16 +190,19 @@ footer {
 
 
 
-@media screen and (min-width: 400px)
+@media screen and (min-width: 400px){
 	nav ul li {
 		flex:none;}
 	nav ul{
 		justify-content: center;
 	}
-	
+}
 
 @media screen and (max-width: 480px){
-	
+	 img{
+		float: left;
+	margin: 0 1em 1em 0;
+	}
 	#container{
 		display: none;
 	}
@@ -233,7 +236,7 @@ body{
 media screen (min-width: 940px){
 body{
 font-family: 'Gloria Hallelujah', serif;
-	 background-image: url("images/background.jpg");
+	 
 }
 #container{
 		display: grid;
