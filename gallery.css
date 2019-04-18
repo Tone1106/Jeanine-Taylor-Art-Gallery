@@ -212,6 +212,8 @@ footer {
 
 body{
 		 font-family: 'Libre Baskerville', serif;
+	background-image: url("images/background2.jpg");
+	}
 	}
 }
 @media screen and (max-width: 600px){
@@ -224,8 +226,7 @@ body{
 	}
 	body{
 		 font-family: 'Gloria Hallelujah', serif;
-	 background-image: url("images/background2.jpg");
-	}
+	 
 	#container{
 		display: none;
 	}
