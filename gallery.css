@@ -1,6 +1,6 @@
 
 @charset "utf-8";
-/* CSS Document */
+
 
 
 body {
@@ -210,6 +210,9 @@ footer {
 	#container{
 		display: none;
 	}
+	p{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 600px;){
@@ -224,6 +227,9 @@ footer {
 		 font-family: 'Libre Baskerville', serif;
 	}
 	#container{
+		display: none;
+	}
+	p{
 		display: none;
 	}
 	
