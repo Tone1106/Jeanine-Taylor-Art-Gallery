@@ -207,6 +207,9 @@ footer {
 		float: left;
 	margin: 0 1em 1em 0;
 	}
+	#container{
+		display: none;
+	}
 }
 
 @media screen and (min-width: 600px;){
@@ -219,6 +222,9 @@ footer {
 	}
 	body{
 		 font-family: 'Libre Baskerville', serif;
+	}
+	#container{
+		display: none;
 	}
 	
 	}
